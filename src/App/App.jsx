@@ -1,10 +1,14 @@
 import './App.css';
 import React from 'react';
-import SampleComponent from '../components/SampleComponent';
+import MainPage from '../MainPage/MainPage';
+import PhonebookNav from '../components/PhonebookNav';
 
 function App() {
   return (
-    <SampleComponent />
+    <div>
+      <PhonebookNav />
+    </div>
+
   );
 }
 
