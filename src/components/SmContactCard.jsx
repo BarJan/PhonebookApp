@@ -1,19 +1,17 @@
-import Card from 'react-bootstrap/Card';
+import { Col, Container, Row } from 'react-bootstrap';
 
 function SmContactCard (props){
-    const {contact} = props;
+
+    const {contact, onClick} = props;
 
     return (
-        <Card style={{ width: '18rem' }}>
-            <Card.Body>
-                <Card.Title>{contact.fname}{contact.lname}</Card.Title>
-                <Card.Subtitle className="mb-2 text-muted">{contact.phone}</Card.Subtitle>
-                <Card.Text>
-                    {contact.address}
-                </Card.Text>
-                <Card.Link href="#">Card Link</Card.Link>
-            </Card.Body>
-        </Card>
+        <Container className="SmCard">
+            <Row onClick={() => onClick(contact)}>
+                <Col>{contact.name}{contact.lname}</Col>
+                <Col>{contact.phone}</Col>
+                <Col>{contact.address.street + contact.address.city}</Col>
+            </Row>
+        </Container>
     );
 }
 

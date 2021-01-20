@@ -5,8 +5,9 @@ import PhonebookNav from '../components/PhonebookNav';
 
 function App() {
   return (
-    <div>
+    <div className="App">
       <PhonebookNav />
+      <MainPage />
     </div>
 
   );
