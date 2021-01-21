@@ -9,17 +9,17 @@ function MainPage(){
 
     const [contact,setContact] = useState(new ContactModel({id: 1992,name: "bar janah", username: "barjan", email: "bla@gmail.com", address: {street: "hertzel", suite: "865", city: "TLV", geo: {lat: "34.5456", lng: "34.5456"}}, phone: "0525252522", website: "httpblabla.com", company: {name:"vla", catchPhrase: "blaPhrase", bs: "bs"}}));
     const [renderDetails, setRenderDetails] = useState(false);
+    
     let test;
+
     useEffect(() => {
         axios.get('/api/users').then(res=>{
-            document.write(res);
+            console.log(res.data);
             const contacts = res.data.map((contact)=> new ContactModel(contact));
-            test = contacts[0].name;
+           // test = contacts[0].name;
             // const contacts = res.data.map((contact)=> new ContactModel(contact));
-            // setContact(contacts[0]);
+            setContact(contacts[0]);
     });
-        // fetch(`/api/users`)
-        //     .then((response) => console.log(response));
     },[])
 
     function handleOpenClick(clickedContact){
@@ -33,7 +33,7 @@ function MainPage(){
 
     return(
         <Container>
-            {test ? "yes": "no"}
+            {contact.name}
             {renderDetails ? <LgContactCard contact={contact} onClick={handleCloseClick}/> : <SmContactCard contact={contact} onClick={handleOpenClick}/>}
         </Container>
     )

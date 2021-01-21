@@ -11,10 +11,9 @@ app.listen(port, () => {
 
 app.get('/api/users', (req, res) => {
     let contacts =[];
-    // res.send('success!');
     axios.get('https://jsonplaceholder.typicode.com/users').then(response=>{
-        document.write(response);
-        res.send(response);
+        console.log(response.data);
+        res.json(response.data);
     });
 });
 
