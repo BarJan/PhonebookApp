@@ -1,5 +1,6 @@
 class ContactModel{
     constructor(jsonObject){
+        this.id =       jsonObject.id;
         this.name =     jsonObject.name;
         this.username = jsonObject.username;
         this.email =    jsonObject.email;
