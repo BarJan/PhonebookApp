@@ -7,7 +7,7 @@ import ContactModel from "../models/ContactModel";
 
 
 function MainPage(){
-
+    
     const [contacts,setContacts] = useState([]);//new ContactModel({id: 1992,name: "bar janah", username: "barjan", email: "bla@gmail.com", address: {street: "hertzel", suite: "865", city: "TLV", geo: {lat: "34.5456", lng: "34.5456"}}, phone: "0525252522", website: "httpblabla.com", company: {name:"vla", catchPhrase: "blaPhrase", bs: "bs"}}));
     const [detailedContact, setDetailedContact] = useState();
     const [renderDetails, setRenderDetails] = useState(false);
