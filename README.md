@@ -14,8 +14,8 @@ Screenshots:
   *   Phonebook page![alt text](https://github.com/BarJan/phonebook-app/blob/master/public/images/web-browser-phonebook.png)
   *   Contact page![alt text](https://github.com/BarJan/phonebook-app/blob/master/public/images/web-browser-contact.png)
 * App on mobile:
-  *   Phonebookpage![alt text](https://github.com/BarJan/phonebook-app/blob/master/public/images/mobile-phonebook.png)
-  *   Contact page![alt text](https://github.com/BarJan/phonebook-app/blob/master/public/images/mobile-contact.png)
-  *   Navbar dropdown![alt text](https://github.com/BarJan/phonebook-app/blob/master/public/images/mobile-navbar.png)
+  *   Phonebook page ![alt text](https://github.com/BarJan/phonebook-app/blob/master/public/images/mobile-phonebook.png)
+  *   Contact page ![alt text](https://github.com/BarJan/phonebook-app/blob/master/public/images/mobile-contact.png)
+  *   Navbar dropdown ![alt text](https://github.com/BarJan/phonebook-app/blob/master/public/images/mobile-navbar.png)
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
