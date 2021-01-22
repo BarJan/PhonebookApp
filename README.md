@@ -10,7 +10,7 @@ To move back from contact's details to phonebook - click on details area.
 
 ###Screenshots:
 App on web-browser: 
-https://github.com/BarJan/phonebook-app/blob/master/public/images/web-browser-phonebook.png https://github.com/BarJan/phonebook-app/blob/master/public/images/web-browser-contact.png
+![alt text](https://github.com/BarJan/phonebook-app/blob/master/public/images/web-browser-phonebook.png) ![alt text](https://github.com/BarJan/phonebook-app/blob/master/public/images/web-browser-contact.png)
 App on mobile:
 https://github.com/BarJan/phonebook-app/blob/master/public/images/mobile-phonebook.png https://github.com/BarJan/phonebook-app/blob/master/public/images/mobile-contact.png https://github.com/BarJan/phonebook-app/blob/master/public/images/mobile-navbar.png
 
