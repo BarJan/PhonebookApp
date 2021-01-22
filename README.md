@@ -8,7 +8,7 @@ The API which the server get the data from, is: https://jsonplaceholder.typicode
 To move from phonebook to a contact's details - click on contact line.
 To move back from contact's details to phonebook - click on details area.
 
-* App in action
+* App in action.
 - ![](https://github.com/BarJan/phonebook-app/blob/master/public/images/web-browser-gif.gif).
 - ![](https://github.com/BarJan/phonebook-app/blob/master/public/images/mobile-gif.gif).
 
