@@ -1,0 +1,18 @@
+.SmCard{
+    border: solid grey;
+    margin-bottom: 2px;
+    border-width: 0.1px;
+    border-radius: 2px;
+    background-color: rgb(252, 248, 248);
+}
+
+.SmCard:hover{
+    background-color: rgb(235, 233, 233);
+    font-weight: bold;
+}
+
+@media screen and (max-device-width: 799px){
+    .SmCard{
+        font-size: 12px;
+    }
+}

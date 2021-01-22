@@ -1,3 +1,9 @@
 .App {
   text-align: center;
 }
+
+.App .jumbotron{
+  background-color: rgb(151, 123, 123);
+  margin: 0;
+  margin-top: 5px;
+}

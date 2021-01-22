@@ -8,6 +8,7 @@ class ContactModel{
             street:     jsonObject.address.street,
             suite:      jsonObject.address.suite,
             city:       jsonObject.address.city,
+            zipcode:    jsonObject.address.zipcode,
             geo:        {
                 lat:    jsonObject.address.geo.lat,
                 lng:    jsonObject.address.geo.lng

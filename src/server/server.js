@@ -10,17 +10,7 @@ app.listen(port, () => {
 });
 
 app.get('/api/users', (req, res) => {
-    let contacts =[];
     axios.get('https://jsonplaceholder.typicode.com/users').then(response=>{
-        console.log(response.data);
         res.json(response.data);
     });
 });
-
-// app.get(`/api/users/${d}`, (req, res) => {
-//     let contacts =[];
-//     axios.get(`https://jsonplaceholder.typicode.com/users/${d}`).then(res=>{
-//         contacts = res.data.map((contact)=> new ContactModel(contact));
-//         res.send(contacts);
-//     });
-// });
