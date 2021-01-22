@@ -6,7 +6,7 @@ function LgContactCard (props){
 
     return (
         <Container className="lg-card">
-            <Card style={{ textAlign: 'left' }} onClick={() => onClick()}>
+            <Card style={{ textAlign: 'left' }} onClick={() => onClick()} title="Tap to exit">
                 <Card.Body>
                     <Card.Title>Name: {contact.name}</Card.Title>
                     <Card.Text >Phone: {contact.phone}</Card.Text>
